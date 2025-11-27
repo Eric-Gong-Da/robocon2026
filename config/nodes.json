@@ -1,0 +1,10 @@
+{
+  "nodes": [
+    {
+      "name": "sensor_node",
+      "path": "chassis_hardware/src/sensor_node.py",
+      "enabled": true,
+      "description": "Arduino sensor data publisher"
+    }
+  ]
+}

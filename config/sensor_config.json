@@ -1,0 +1,27 @@
+{
+  "serial": {
+    "port": "/dev/cu.usbmodem11401",
+    "baud_rate": 921600,
+    "timeout": 1
+  },
+  "encoders": {
+    "e1": {
+      "pin_a": 2,
+      "pin_b": 3,
+      "description": "Left encoder"
+    },
+    "e2": {
+      "pin_a": 4,
+      "pin_b": 5,
+      "description": "Right encoder"
+    }
+  },
+  "imu": {
+    "enabled": true,
+    "description": "IMU heading sensor"
+  },
+  "zmq": {
+    "port": 5555,
+    "publish_rate_hz": 100
+  }
+}
